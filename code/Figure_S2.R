@@ -2,7 +2,7 @@
 library(data.table); library(gridExtra); library(cowplot)
 
 # load the data file
-d1 <- readxl::read_xlsx('F:/研究生/研究生课程/数据驱动与可重复性研究/小组作业/Source Data.xlsx',sheet = "FigureS2")
+d1 <- readxl::read_xlsx('D:/date/hpmework/Source Data.xlsx',sheet = "FigureS2")
 d1 <- as.data.table(d1)
 
 # make plots
